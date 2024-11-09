@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro de Ciberseguridad que ofrece soluciones para proteger tu información y datos personales.">
+    <meta name="keywords" content="ciberseguridad, privacidad, protección de datos, análisis de malware">
+    <title>HackProof</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="bg-dark text-white">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo del HackProof - Logotipo de la empresa" style="height: 40px;">
+                    HackProof
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="security2.html">Ciberseguridad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="privacity3.html">Ciberprivacidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.cybersecurity.com" target="_blank">Cybersecurity.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.security.org" target="_blank">Security.org</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="text-center">Nuestros Servicios</h2>
+        <p class="text-center">
+            Aprende más sobre cómo protegemos tu información con nuestras soluciones de ciberseguridad.
+        </p>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="img/ciber_seguridad.png" class="card-img-top" alt="Ciberseguridad">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciberseguridad</h5>
+                        <p class="card-text">Protege tus sistemas, redes y datos contra accesos no autorizados, ataques y daños.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="img/ciber_privacidad.png" class="card-img-top" alt="Ciberprivacidad">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciberprivacidad</h5>
+                        <p class="card-text">Asegura que tu información personal esté bajo tu control, limitando quién puede acceder, recopilar o usar tus datos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="img/Importancia_Ciberseguridad.png" class="card-img-top" alt="Importancia de la Ciberseguridad">
+                    <div class="card-body">
+                        <h5 class="card-title">Importancia de la Ciberseguridad</h5>
+                        <p class="card-text">La ciberseguridad es esencial para proteger sistemas, redes y datos frente a amenazas como hackers, malware y filtraciones de información.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="img/Importancia_Ciberprivacidad.png" class="card-img-top" alt="Importancia de la Ciberprivacidad">
+                    <div class="card-body">
+                        <h5 class="card-title">Importancia de la Ciberprivacidad</h5>
+                        <p class="card-text">La ciberprivacidad es fundamental para proteger la información personal y garantizar el control sobre quién accede a nuestros datos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="#" class="btn btn-danger mb-4" id="btnMoreInfo">Contáctanos</a>
+        </div>
+
+        <div id="contactForm" class="collapse" style="margin-top: 20px;">
+            <h3>Formulario de Contacto</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Tu número de teléfono" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="service">Servicio de Interés</label>
+                    <select class="form-control" id="service">
+                        <option>Ciberseguridad</option>
+                        <option>Ciberprivacidad</option>
+                        <option>Protección de Datos</option>
+                        <option>Consultoría</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h3>Redes Sociales</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com" target="_blank" class="text-white">Facebook</a></li>
+                        <li><a href="https://www.twitter.com" target="_blank" class="text-white">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank" class="text-white">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com" target="_blank" class="text-white">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById("btnMoreInfo").addEventListener("click", function(event) {
+            event.preventDefault();
+            $('#contactForm').collapse('show'); 
+            this.style.display = "none"; 
+        });
+    </script>
+</body>
+</html>

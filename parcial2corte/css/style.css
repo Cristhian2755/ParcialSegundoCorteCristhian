@@ -1,0 +1,222 @@
+/* Personalización global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Estilo para la barra de navegación */
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #da0606;
+    border-radius: 5px;
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #da0606;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #c50505;
+    transform: scale(1.05);
+}
+
+/* Estilo para el formulario */
+#contactForm {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: none; /* Oculto por defecto, se mostrará cuando se haga clic en el botón */
+}
+
+#contactForm h3 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+#contactForm .form-group label {
+    font-weight: bold;
+}
+
+#contactForm .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+#contactForm .form-control:focus {
+    border-color: #da0606;
+    box-shadow: 0 0 8px rgba(218, 6, 6, 0.5);
+}
+
+#contactForm button {
+    border-radius: 5px;
+    background-color: #da0606;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+#contactForm button:hover {
+    background-color: #c50505;
+}
+
+/* Estilos CSS personalizados */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Personalización de márgenes y espaciado de elementos */
+h2 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+/* Mejora de la responsividad de las tarjetas */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    footer h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Estilo para las imágenes en las tarjetas */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilos para las listas de redes sociales */
+ul.list-unstyled {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+ul.list-unstyled li {
+    margin: 5px 0;
+}
+
+ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+ul.list-unstyled li a:hover {
+    color: #da0606;
+}
+
+/* Estilo de tablas */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+}
+
+td {
+    background-color: #f8f9fa;
+}
+
+tr:nth-child(even) td {
+    background-color: #e9ecef;
+}
+
+/* Estilos para los formularios */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #da0606;
+    box-shadow: 0 0 5px rgba(218, 6, 6, 0.5);
+}
+
+button[type="submit"] {
+    background-color: #da0606;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #c50505;
+}
